@@ -24,9 +24,7 @@ function App() {
     <>
       <div className='cards'>
         {/* para cada um dos itens da lista, exibir um Card*/}
-        {itens.map(function (elemento) {
-          return<Card item={elemento} />
-        })}
+        {itens.map(elemento => <Card item={elemento} key={elemento.name} />)}
       </div>
     </>
     
