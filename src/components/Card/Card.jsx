@@ -1,5 +1,6 @@
 export default function Card () {
-    return (<div className="card">
+    return (
+    <div className="card">
     <h2>Rick Sanchez</h2>
 
   <div className="tags">
