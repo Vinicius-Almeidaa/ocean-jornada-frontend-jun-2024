@@ -1,0 +1,14 @@
+export default function Card () {
+    return (<div className="card">
+    <h2>Rick Sanchez</h2>
+
+  <div className="tags">
+    <div>Status: Vivo</div>
+    <div>Espécie: Humana: Vivo</div>
+    <div>Origem: Terra</div>
+  </div>
+
+    <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" />
+  </div>
+  )
+}

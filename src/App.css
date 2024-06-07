@@ -6,6 +6,7 @@
     text-align: center;
     background: #f0f0f0;
     transition: all 0.15s ease-in-out;
+    cursor: pointer;
 }
 
 .card:hover {
@@ -20,4 +21,71 @@
 
 .card img {
     border-radius: 16px;
+}
+
+..card .tags {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 8px;
+
+    margin: 16px;
+
+}
+
+ 
+
+.card .tags {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 8px;
+
+    margin: 16px;
+
+}
+
+.card h2::before {
+
+    content: '';
+
+    float: left;
+
+    background: #e9a9de;
+
+    width: 8px;
+
+    border-radius: 4px;
+
+    height: 40px;
+
+    visibility: visible !important;
+
+}
+ 
+
+.card .tags div {
+
+    background: white;
+
+    color: black;
+
+    padding: 6px 16px;
+
+    border-radius: 8px;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    font-family: sans-serif;
+
 }
